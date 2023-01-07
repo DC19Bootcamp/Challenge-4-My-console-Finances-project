@@ -1,7 +1,7 @@
-var finances = [
-    ['Jan-2010', 867884],
-    ['Feb-2010', 984655],
-    ['Mar-2010', 322013],
+var finances = [ 
+    ['Jan-2010', 867884],//formula to calculate profit between x2 months - month 1 (-) month 2. number > total
+    ['Feb-2010', 984655],//a loop to repeat it across array
+    ['Mar-2010', 322013],//then total = average.
     ['Apr-2010', -69417],
     ['May-2010', 310503],
     ['Jun-2010', 522857],
@@ -90,13 +90,16 @@ var finances = [
 console.log("Financial analysis")
 console.log("-------------------------")
 
-var finances = (finances.length)
-console.log("Total months:", finances);
+console.log("Total months:", finances.length);
 
-for (var i = 0; i < finances; i++) {
-    for (var j = 0; j < finances; i++) {
-        if ('Month' === [j][1]) console.log("Total: ")(i);
-    }
+var total = 0;
+for (var i = 0; i < finances.length; i++) {
+  total += finances[i][1];
 }
+console.log("Total: ",total);
 
+console.log("Average month: ", total /86,);
 
+console.log("Greatest increase in profits: ", Math.max (total));
+
+console.log("Greatest decreaase in profits: ");
