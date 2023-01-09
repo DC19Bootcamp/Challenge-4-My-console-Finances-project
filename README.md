@@ -4,6 +4,11 @@
  
 In this challenge, you'll be using the concepts you've learned to complete the required activity. This activity presents a real-world situation in which your newfound JavaScript skills will come in handy. You are tasked with creating code for analyzing the financial records of a company. You have been provided with a financial dataset in the `starter/index.js` file.
 
+## Screenshots
+<img width="454" alt="image" src="https://user-images.githubusercontent.com/119360569/211418352-b39b7cb1-ce34-4303-9bdf-756f517b7f2e.png">
+
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/119360569/211418478-a959c7ec-f434-451f-b8b2-64240baa8b9e.png">
+
 ## Instructions
 
 1. Create a new GitHub repo called `Console-Finances`. Then, clone it to your computer.
